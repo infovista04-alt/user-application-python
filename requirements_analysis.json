@@ -1,0 +1,65 @@
+{
+  "project_id": "user_application_20260213_093948",
+  "project_name": "User Application",
+  "project_path": "./agent_workspace\\projects\\user_application_20260213_093948",
+  "task_description": "Create a full-stack web application with user authentication, CRUD operations, and a responsive UI",
+  "analyzed_at": "2026-02-13T09:39:48.696590",
+  "suggested_tech_stacks": [
+    {
+      "stack": "python",
+      "framework": "FastAPI",
+      "description": "Python with FastAPI - Best for AI/ML, data processing, rapid prototyping",
+      "pros": [
+        "Easy to learn",
+        "Great for AI/ML",
+        "Async support",
+        "Auto API docs"
+      ],
+      "deployment": [
+        "Docker",
+        "Heroku",
+        "Railway",
+        "Render"
+      ]
+    },
+    {
+      "stack": "nodejs",
+      "framework": "Express/NestJS",
+      "description": "Node.js - Best for real-time apps, JavaScript ecosystem",
+      "pros": [
+        "Fast I/O",
+        "NPM ecosystem",
+        "Full-stack JS",
+        "Real-time"
+      ],
+      "deployment": [
+        "Vercel",
+        "Netlify",
+        "Railway",
+        "Heroku"
+      ]
+    },
+    {
+      "stack": "go",
+      "framework": "Gin/Fiber",
+      "description": "Go - Best for high-performance, concurrent systems",
+      "pros": [
+        "Fast execution",
+        "Low memory",
+        "Great concurrency",
+        "Single binary"
+      ],
+      "deployment": [
+        "Docker",
+        "GCP Cloud Run",
+        "Fly.io"
+      ]
+    }
+  ],
+  "requirements_template": {
+    "functional": "List main features the system should have",
+    "non_functional": "Performance, scalability, security requirements",
+    "integrations": "External APIs, databases, services needed",
+    "constraints": "Budget, timeline, tech constraints"
+  }
+}
